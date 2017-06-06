@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+  <style>
+  .button {
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #900C3F;
+  border: none;
+  color: #3AAD35 ;
+  text-align: center;
+  font-size: 25px;
+  padding: 6px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+ 
+  </style>
+    <title>MY CHURCH</title>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h2>WATOTO CHURCH</h2>
+	
+  <button class="button"> <a style="text-decoration:none"  href="http://www.watotochurch.com/" target="_blank"> <font color="#070907">Home</font></a></br></button>
+  <button class="button"> <a style="text-decoration:none"  href="http://www.watotochurch.com/index.php?id=13" target="_blank"><font color="#070907">Locations</font></a></br></button>
+  <button class="button"> <a style="text-decoration:none" href="http://www.watotochurch.com/index.php?id=67" target="_blank"><font color="#070907">Podcasts</font></a></br></button>
+  <button class="button"> <a style="text-decoration:none" href="https://twitter.com/watotochurch?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><font color="#070907">Twiter Handle</font></a></br></button>
+  <button class="button"> <a style="text-decoration:none" href="https://www.facebook.com/watotochurchuganda/" target="_blank"><font color="#070907">Facebook Page</font></a></br></button>
+  <button class="button"> <a style="text-decoration:none" href="https://www.youtube.com/user/watotochurchuganda" target="_blank"><font color="#070907">Youtube Charnel</font></a></br></button>
+	
+
+  </body>
+</html>
